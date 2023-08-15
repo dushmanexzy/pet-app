@@ -2,6 +2,7 @@ import webpack from "webpack";
 
 export function buildLoaders(): webpack.RuleSetRule[] {
 
+    // If not ts -> babel-loader
     const typescriptLoader = {
         test: /\.tsx?$/,
         use: 'ts-loader',
