@@ -1,7 +1,4 @@
 # Exclude from git
 node_modules
-build
+/build
 .idea
-
-# Include to git
-!config/build
