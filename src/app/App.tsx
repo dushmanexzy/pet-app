@@ -6,6 +6,7 @@ import {MainPage} from "pages/MainPage";
 import {classNames} from "shared/lib/classNames/classNames";
 
 import './styles/index.scss';
+import {AppRouter} from "app/providers/router";
 
 const App = () => {
     const {theme, toggleTheme} = useTheme();
@@ -15,12 +16,7 @@ const App = () => {
             <button onClick={toggleTheme}>TOGGLE THEME</button>
             <Link to={'/'}>To Main Page</Link>
             <Link to={'/about'}>To About Page</Link>
-            <Suspense fallback={<div>Loading...</div>}>
-                <Routes>
-                    <Route path={'/about'} element={<AboutPage/>}/>
-                    <Route path={'/'} element={<MainPage/>}/>
-                </Routes>
-            </Suspense>
+            <AppRouter />
         </div>
     );
 };
