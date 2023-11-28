@@ -30,6 +30,9 @@ export default {
     moduleDirectories: [
         'node_modules',
     ],
+    modulePaths: [
+        '<rootDir>src',
+    ],
     rootDir: '../../',
     testMatch: [
         '<rootDir>src/**/*(*.)(spec|test).[tj]s?(x)',
