@@ -34,10 +34,15 @@ export default {
         '<rootDir>src',
     ],
     rootDir: '../../',
+    setupFilesAfterEnv: [
+        '<rootDir>config/jest/setupTests.ts',
+    ],
     testMatch: [
         '<rootDir>src/**/*(*.)(spec|test).[tj]s?(x)',
     ],
-
+    moduleNameMapper: {
+        '\\.s?css$': 'identity-obj-proxy',
+    },
     // Indicates whether the coverage information should be collected while executing the test
     // collectCoverage: false,
 
