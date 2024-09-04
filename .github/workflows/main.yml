@@ -14,6 +14,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Set Git to use LF endings for checks
+        run: git config --global core.eol lf && git config --global core.autocrlf input
       - name: Starting Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:

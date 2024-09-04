@@ -1,0 +1,10 @@
+# Использование CRLF локально, но хранение в LF
+* text=auto eol=crlf
+
+# Принудительное использование LF для всех текстовых файлов при выполнении проверок
+*.sh text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.scss text eol=lf
+*.json text eol=lf
