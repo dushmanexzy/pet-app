@@ -4,5 +4,7 @@
   "Обновить страницу": "Reload page",
   "Войти": "Login",
   "Увеличить": "increment",
-  "Уменьшить": "decrement"
+  "Уменьшить": "decrement",
+  "Введите имя пользователя": "Input username",
+  "Введите пароль": "Input password"
 }
