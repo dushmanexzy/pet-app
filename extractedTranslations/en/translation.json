@@ -1,13 +1,16 @@
 {
+  "Введите имя пользователя": "Input username",
+  "Введите пароль": "Input password",
   "Войти": "Login",
+  "Вы ввели неверный логин или пароль": "Incorrect username or password",
+  "Выйти": "Logout",
   "На главную страницу": "To main page",
   "На страницу О нас": "To about page",
+  "Новый": "New",
   "Обновить страницу": "Reload page",
   "Страница не найдена": "Page Not Found",
-  "Язык": "Language",
   "Увеличить": "increment",
   "Уменьшить": "decrement",
-  "Новый": "New",
-  "Введите имя пользователя": "Input username",
-  "Введите пароль": "Input password"
+  "Форма авторизации": "Форма авторизации",
+  "Язык": "Language"
 }
